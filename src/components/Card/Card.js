@@ -1,12 +1,20 @@
 import React from 'react';
 import './Card.css'
-const Card = (props) => {
-    console.log(props);
-    const { name, time, picture, about } = props.card;
+const Card = ({ handleAddToList, card }) => {
+    const { company, time, picture, about } = card;
+    // console.log(props);
+
 
     return (
         <div className='card'>
             <img src={picture} alt="" />
+            <div className="card-info">
+                <p className='company-name' >{company}</p>
+                <p>{about.slice(0, 80)}...</p>
+                <p className='time'>Work Hour: {time}hrs</p>
+            </div>
+
+            <button onClick={() => handleAddToList(card)} className='btn-card'>Add To List</button>
         </div>
     );
 };

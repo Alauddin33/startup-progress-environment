@@ -1,4 +1,42 @@
 .card img {
-    height: 200px;
-    width: 250px;
+    height: 150px;
+    width: 240px;
+    border-radius: 8px;
+
+}
+
+.card {
+    height: 400px;
+    width: 240px;
+    border: 1px solid lightslategray;
+    border-radius: 8px;
+    position: relative;
+}
+
+.card-info {
+    padding: 0 10px;
+}
+
+.company-name {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.time {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.btn-card {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    border-radius: 0 0 8px 8px;
+    font-weight: 700;
+    background-color: bisque;
+}
+
+.btn-card:hover {
+    background-color: orange;
 }
