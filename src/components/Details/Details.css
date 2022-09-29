@@ -11,3 +11,8 @@
 .header h1 {
     color: blueviolet;
 }
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
