@@ -22,27 +22,30 @@ const List = ({ list }) => {
         setTime(time)
     }
 
-    return (
+    function App() {
+        const notify = () => toast("Wow You have done!");
 
-        <div className='list'>
-            <Info></Info>
-            <p><strong>Add a break</strong></p>
-            <div className='btn-container'>
-                {
-                    breakTimes.map(time => <Break
-                        key={time.id}
-                        time={time}
-                        handleAddToBreakTime={handleAddToBreakTime}
-                    ></Break>)
-                }
+        return (
+
+            <div className='list'>
+                <Info></Info>
+                <p><strong>Add a break</strong></p>
+                <div className='btn-container'>
+                    {
+                        breakTimes.map(time => <Break
+                            key={time.id}
+                            time={time}
+                            handleAddToBreakTime={handleAddToBreakTime}
+                        ></Break>)
+                    }
+                </div>
+                <h3>Time Calculation</h3>
+                <p>Working time: {total}</p>
+                <p>break Time: {time.break}</p>
+                <button onClick={notify}>Notify! className='btn-activity'>Activity Completed</button>
+                <ToastContainer />
             </div>
-            <h3>Time Calculation</h3>
-            <p>Working time: {total}</p>
-            <p>break Time: {time.break}</p>
-            <button className='btn-activity'>Activity Completed</button>
+        );
+    };
 
-        </div>
-    );
-};
-
-export default List;
+    export default List;
