@@ -27,7 +27,9 @@ const List = ({ list }) => {
     const handleAddToBreakTime = (time) => {
         setTime(time)
     }
-    const notify = () => toast("Wow so easy!");
+    const notify = () => toast.success("Wow you complete yoourr task!", {
+        theme: 'colored'
+    });
 
     return (
 
