@@ -42,7 +42,24 @@
     background-color: white;
 }
 
+/* responsive----------------
+--------------------------- */
 
+/* xtra small */
+@media screen and (max-width: 600px) {
+    .cards-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .description-container {
+        display: block;
+    }
+}
+
+
+
+/* small device */
 @media screen and (max-width: 768px) {
     .cards-container {
         display: grid;
@@ -50,6 +67,7 @@
     }
 }
 
+/* medium device */
 @media screen and (min-width: 769px) and (max-width: 992px) {
     .cards-container {
         display: grid;
