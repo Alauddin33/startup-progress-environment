@@ -1,7 +1,13 @@
+import React from 'react';
 import { useState } from 'react';
 import Break from '../../Break/Break';
 import Info from '../../Info/Info';
 import './List.css'
+
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+
 const List = ({ list }) => {
     let total = 0;
 
@@ -21,31 +27,33 @@ const List = ({ list }) => {
     const handleAddToBreakTime = (time) => {
         setTime(time)
     }
+    const notify = () => toast("Wow so easy!");
 
-    function App() {
-        const notify = () => toast("Wow You have done!");
+    return (
 
-        return (
-
-            <div className='list'>
-                <Info></Info>
-                <p><strong>Add a break</strong></p>
-                <div className='btn-container'>
-                    {
-                        breakTimes.map(time => <Break
-                            key={time.id}
-                            time={time}
-                            handleAddToBreakTime={handleAddToBreakTime}
-                        ></Break>)
-                    }
-                </div>
-                <h3>Time Calculation</h3>
-                <p>Working time: {total}</p>
-                <p>break Time: {time.break}</p>
-                <button onClick={notify}>Notify! className='btn-activity'>Activity Completed</button>
-                <ToastContainer />
+        <div className='list'>
+            <Info></Info>
+            <p><strong>Add a break</strong></p>
+            <div className='btn-container'>
+                {
+                    breakTimes.map(time => <Break
+                        key={time.id}
+                        time={time}
+                        handleAddToBreakTime={handleAddToBreakTime}
+                    ></Break>)
+                }
             </div>
-        );
-    };
+            <h3>Time Calculation</h3>
+            <p>Working time: {total}</p>
+            <p>break Time: {time.break}</p>
+            <button onClick={notify} className='btn-activity'>Activity Completed</button>
+            <ToastContainer
+                position="top-center"
 
-    export default List;
+
+            />
+        </div>
+    );
+};
+
+export default List;

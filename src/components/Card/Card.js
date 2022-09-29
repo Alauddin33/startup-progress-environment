@@ -2,7 +2,7 @@ import React from 'react';
 import './Card.css'
 const Card = ({ handleAddToList, card }) => {
     const { company, time, picture, about } = card;
-    // console.log(props);
+
 
 
     return (
