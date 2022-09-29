@@ -52,7 +52,6 @@ const List = ({ list }) => {
             <ToastContainer
                 position="top-center"
 
-
             />
         </div>
     );
