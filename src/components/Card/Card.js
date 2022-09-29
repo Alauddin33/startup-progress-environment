@@ -11,7 +11,7 @@ const Card = ({ handleAddToList, card }) => {
             <div className="card-info">
                 <p className='company-name' >{company}</p>
                 <p>{about.slice(0, 80)}...</p>
-                <p className='time'>Work Hour: {time}hrs</p>
+                <p className='time'>Duration: {time} minutes</p>
             </div>
 
             <button onClick={() => handleAddToList(card)} className='btn-card'>Add To List</button>

@@ -1,0 +1,46 @@
+.profile-pic {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.profile-pic img {
+    width: 70px;
+    height: 70px;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 2px;
+}
+
+.address {
+    margin: 2px;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+}
+
+.location img {
+    width: 20px;
+    height: 20px;
+}
+
+.specified {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: gainsboro;
+    margin-top: 40px;
+    border-radius: 8px;
+}
+
+.specified h4 {
+    margin: 10px;
+}
+
+.specified p {
+    margin: 10px;
+}

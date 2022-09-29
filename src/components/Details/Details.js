@@ -18,7 +18,6 @@ const Details = () => {
     }, [])
 
     const handleAddToList = (card) => {
-        console.log(card);
         const newList = [...list, card];
         setList(newList);
     }

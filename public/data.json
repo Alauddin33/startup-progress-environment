@@ -2,7 +2,7 @@
     {
         "id": "633473a73b252af47f92535d",
         "picture": "https://online.hbs.edu/PublishingImages/Startup-Environment.jpg",
-        "time": 5,
+        "time": 200,
         "name": "Daniel Gilmore",
         "company": "GRAINSPOT",
         "email": "danielgilmore@grainspot.com",
@@ -11,7 +11,7 @@
     {
         "id": "633473a7621787663e1a48d3",
         "picture": "https://static1.shine.com/l/m/images/blog/Startups-and-GST---The-Major-Advantages-And-Challenges.jpg",
-        "time": 6,
+        "time": 300,
         "name": "Alejandra Reyes",
         "company": "ARTWORLDS",
         "email": "alejandrareyes@artworlds.com",
@@ -19,8 +19,8 @@
     },
     {
         "id": "633473a737b2408c05e1fb44",
-        "picture": "https://www.incimages.com/uploaded_files/image/1920x1080/getty_166274915_62189.jpg",
-        "time": 3,
+        "picture": "https://miro.medium.com/max/1400/1*STt0fS7lDxl1nd7Y4qP53A.jpeg",
+        "time": 250,
         "name": "Frost Salas",
         "company": "BEDLAM",
         "email": "frostsalas@bedlam.com",
@@ -29,7 +29,7 @@
     {
         "id": "633473a75089d9e5070e73e1",
         "picture": "https://cdn.zeebiz.com/sites/default/files/styles/zeebiz_850x478/public/2019/08/29/99357-startup-deal-pixabay.jpg?itok=mZ9ZX1xn",
-        "time": 6,
+        "time": 400,
         "name": "Tami Kline",
         "company": "KENGEN",
         "email": "tamikline@kengen.com",
@@ -38,7 +38,7 @@
     {
         "id": "633473a72847bbdbf7d7388c",
         "picture": "https://intllaw.net/wp-content/uploads/2018/09/34686-startup-reuters.jpg",
-        "time": 2,
+        "time": 150,
         "name": "June Cunningham",
         "company": "IDEGO",
         "email": "junecunningham@idego.com",
@@ -47,7 +47,7 @@
     {
         "id": "633473a7d664acf67c901d79",
         "picture": "https://nordicstartupnews.com/wp-content/uploads/2015/03/why-startups-fail-557x389.jpg",
-        "time": 2,
+        "time": 220,
         "name": "Marion Horton",
         "company": "OMATOM",
         "email": "marionhorton@omatom.com",

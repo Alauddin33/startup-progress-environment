@@ -1,0 +1,29 @@
+.list {
+    position: sticky;
+    top: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.btn {
+    margin-right: 15px;
+    border: none;
+    padding: 10px;
+    border-radius: 30%;
+    background-color: cornflowerblue;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn-activity {
+    background-color: cornflowerblue;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 15px;
+    width: 100%;
+}
